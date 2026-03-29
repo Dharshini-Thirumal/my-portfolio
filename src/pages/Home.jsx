@@ -36,7 +36,7 @@ function Home() {
 
           {/* BUTTONS */}
           <div className="home-buttons">
-            <a href="/Resume.pdf" download className="home-btn">
+            <a href="/public/Resume.pdf" download className="home-btn">
               Download Resume
             </a>
             <Link to="/contact" className="home-btn">
