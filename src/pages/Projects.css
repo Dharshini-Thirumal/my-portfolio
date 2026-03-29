@@ -1,0 +1,163 @@
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important; /* keeps items centered */
+  align-items: flex-start !important;
+  gap: 4.4rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  max-width: 1200px;  /* keeps the grid balanced */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card {
+  flex: 1 1 calc(25% - 2rem); 
+  min-width: 340px !important;
+  max-width: 500px !important;
+  min-height: 450px !important;
+  background: rgba(255, 105, 180, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center !important;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+
+  /* Fade-in animation */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.3s; }
+.project-card:nth-child(3) { animation-delay: 0.5s; }
+.project-card:nth-child(4) { animation-delay: 0.7s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.6);
+}
+
+.project-card h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ff69b4;
+}
+
+.project-card p {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.tech-stack {
+  margin: 0.5rem 0 1rem;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: rgba(255, 105, 180, 0.2);
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links a {
+  margin: 0 0.5rem;
+  color: #ff69b4;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Keep the list left-aligned only */
+.project-points {
+  text-align: left;        /* left-align text */
+  margin: 0.5rem 0 1rem;   /* spacing */
+  padding-left: 1.2rem;    /* indent bullets */
+  color: #fff;
+  font-size: 0.9rem;
+  list-style-position: inside; /* optional, keeps bullets inside padding */
+}
+
+/* Better multi-line bullet alignment */
+.project-points {
+  text-align: left;
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.5rem;     /* space for bullet */
+}
+
+.project-points li {
+  line-height: 1.5;          /* nicer spacing */
+  text-indent: -0.5rem;      /* aligns wrapped text with bullet start */
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+  color: #ff85c1;
+}
+
+/* Tablet: 2 per row */
+@media (max-width: 1024px) {
+  .project-card {
+    flex: 1 1 calc(45% - 2rem);
+  }
+}
+
+/* Mobile: full width */
+@media (max-width: 600px) {
+  .project-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+/* Title & subtitle */
+main h1 {
+  margin-top: 5rem !important;
+  font-size: 4rem;
+  text-align: center;
+  color: #ff69b4;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 12px rgba(255, 105, 180, 0.6);
+
+  /* fade-in */
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 0.8s ease forwards;
+}
+
+main p {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #fff;
+  margin-top: 1rem;
+
+  /* fade-in */
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeInDown 0.8s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
