@@ -1,12 +1,47 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive portfolio built to showcase my work, skills, and a little bit of personality.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my personal portfolio website built using modern frontend tools. It highlights my projects, technical skills, and interests in a clean, minimal, and slightly playful design.
 
-## Expanding the ESLint configuration
+I wanted something that feels soft and aesthetic, but still clearly communicates my identity as a developer.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+Frontend: React + Vite
+Styling: Semantic UI + custom CSS
+Routing: React Router
+Email Service: EmailJS
+
+## 💡 Features
+
+- Responsive design across devices
+- Smooth scrolling and transitions
+- Clean, centered layout for readability
+- Project showcase with structured cards
+- Functional contact form powered by EmailJS
+
+## 🌐 Live Site Link
+
+https://dharshini-thirumal.github.io/my-portfolio/
+
+## 📁 Project Structure
+
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── App.jsx
+ └── main.jsx
+
+## 📌 Future Improvements
+- Add Light/Dark modes
+- Deploy and integrate my AI-powered “Career Clone" chatbot into the portfolio (https://github.com/Dharshini-Thirumal/CareerClone)
+
+## Author
+
+Dharshini Thirumal
+
+Computer Science Graduate | Software Engineer
