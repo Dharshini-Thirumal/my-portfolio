@@ -10,10 +10,10 @@ I wanted something that feels soft and aesthetic, but still clearly communicates
 
 ## 🛠 Tech Stack
 
-Frontend: React + Vite
-Styling: Semantic UI + custom CSS
-Routing: React Router
-Email Service: EmailJS
+- Frontend: React + Vite
+- Styling: Semantic UI + custom CSS
+- Routing: React Router
+- Email Service: EmailJS
 
 ## 💡 Features
 
