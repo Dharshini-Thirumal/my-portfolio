@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 6rem 2rem 4rem; /* pushed content down */
+  padding: 6rem 2rem 4rem; 
 }
 
 /* CENTER CONTENT */
@@ -90,22 +90,37 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Fade in the title and description together */
 .about-title,
 .about-description {
   opacity: 0;
   animation: fadeIn 0.8s ease forwards;
 }
 
-/* Add slight delay for description after title */
 .about-description {
   animation-delay: 0.2s;
 }
 
-/* Cards fade in one by one */
 .cards-grid .custom-card {
   opacity: 0; /* start invisible */
   animation: fadeIn 0.8s ease forwards;
+}
+
+/* RESPONSIVE FIX FOR SMALLER SCREENS */
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: 1fr !important; 
+    gap: 1.5rem !important;
+  }
+
+  .custom-card {
+    width: 100% !important; 
+    max-width: 100% !important; 
+  }
+
+  .about-description {
+    min-width: unset !important; 
+    font-size: 1.2rem !important; 
+  }
 }
 
 /* Stagger each card individually */

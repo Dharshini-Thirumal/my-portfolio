@@ -1,7 +1,7 @@
 .contact-container {
   position: relative;
   min-height: 100vh;
-  background-color: transparent; /* Let index.css background show */
+  background-color: transparent;
   padding: 4rem 1rem;
   display: flex;
   flex-direction: column;

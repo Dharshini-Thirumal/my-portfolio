@@ -1,12 +1,12 @@
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center !important; /* keeps items centered */
+  justify-content: center !important; 
   align-items: flex-start !important;
   gap: 4.4rem;
   margin-top: 0.5rem;
   padding: 1rem;
-  max-width: 1200px;  /* keeps the grid balanced */
+  max-width: 1200px;  
   margin-left: auto;
   margin-right: auto;
 }
@@ -87,24 +87,23 @@
 
 /* Keep the list left-aligned only */
 .project-points {
-  text-align: left;        /* left-align text */
-  margin: 0.5rem 0 1rem;   /* spacing */
-  padding-left: 1.2rem;    /* indent bullets */
+  text-align: left;        
+  margin: 0.5rem 0 1rem;   
+  padding-left: 1.2rem;    
   color: #fff;
   font-size: 0.9rem;
-  list-style-position: inside; /* optional, keeps bullets inside padding */
+  list-style-position: inside; 
 }
 
-/* Better multi-line bullet alignment */
 .project-points {
   text-align: left;
   margin: 0.5rem 0 1rem;
-  padding-left: 1.5rem;     /* space for bullet */
+  padding-left: 1.5rem;    
 }
 
 .project-points li {
-  line-height: 1.5;          /* nicer spacing */
-  text-indent: -0.5rem;      /* aligns wrapped text with bullet start */
+  line-height: 1.5;          
+  text-indent: -0.5rem;      
 }
 
 .project-links a:hover {

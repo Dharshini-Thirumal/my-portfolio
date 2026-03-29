@@ -37,7 +37,7 @@ function Contact() {
       <form ref={form} className="contact-form" onSubmit={sendEmail}>
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <textarea name="message" placeholder="Drop feedback, say hi, share a meme, or even secret coffee recommendations, I'd love to connect!" rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
 

@@ -16,7 +16,7 @@
   max-width: 1200px;
   width: 90%;
   gap: 2rem;
-  flex-wrap: wrap; /* responsive stacking on small screens */
+  flex-wrap: wrap; 
 }
 
 .intro-text {

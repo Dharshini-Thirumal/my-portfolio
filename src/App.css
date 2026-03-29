@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* center all pages horizontally */
+  align-items: center; 
   text-align: center;
 }
 
@@ -13,10 +13,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #d63384aa); /* pink glow on hover */
+  filter: drop-shadow(0 0 2em #d63384aa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #ff69b4aa); /* softer pink glow */
+  filter: drop-shadow(0 0 2em #ff69b4aa); 
 }
 
 @keyframes logo-spin {
@@ -36,12 +36,12 @@
 
 .card {
   padding: 2em;
-  background-color: rgba(255, 105, 180, 0.1); /* subtle pink translucent background */
+  background-color: rgba(255, 105, 180, 0.1); 
   border-radius: 12px;
-  box-shadow: 0 0 12px #d63384aa; /* faint pink glow */
-  color: #fff; /* white text inside cards for contrast */
+  box-shadow: 0 0 12px #d63384aa; 
+  color: #fff; 
 }
 
 .read-the-docs {
-  color: #d63384; /* pinkish gray instead of dull gray */
+  color: #d63384;
 }
