@@ -27,15 +27,6 @@ I wanted something that feels soft and aesthetic, but still clearly communicates
 
 https://dharshini-thirumal.github.io/my-portfolio/
 
-## 📁 Project Structure
-
-src/
- ├── components/
- ├── pages/
- ├── assets/
- ├── App.jsx
- └── main.jsx
-
 ## 📌 Future Improvements
 - Add Light/Dark modes
 - Deploy and integrate my AI-powered “Career Clone" chatbot into the portfolio (https://github.com/Dharshini-Thirumal/CareerClone)
