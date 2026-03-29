@@ -4,8 +4,8 @@
   justify-content: center !important; /* keeps items centered */
   align-items: flex-start !important;
   gap: 4.4rem;
-  margin-top: 3rem;
-  padding: 2rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
   max-width: 1200px;  /* keeps the grid balanced */
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@
   flex: 1 1 calc(25% - 2rem); 
   min-width: 340px !important;
   max-width: 500px !important;
-  min-height: 450px !important;
+  min-height: 435px !important;
   background: rgba(255, 105, 180, 0.08);
   border-radius: 16px;
   padding: 1.5rem;
@@ -144,7 +144,7 @@ main h1 {
 
 main p {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #fff;
   margin-top: 1rem;
 

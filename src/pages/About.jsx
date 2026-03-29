@@ -58,7 +58,7 @@ function About() {
               <Icon name="heart" size="big" className="card-icon" />
               <Card.Header className="card-header">Hobbies</Card.Header>
               <Card.Description className="card-description">
-                Reading a good crime thriller/murder mystery, Crocheting, Baking, Playing badminton, Going on long walks, Journaling (Highly recommended)
+                Reading a good crime thriller/murder mystery, Crocheting, Baking, Playing badminton, Solving puzzles, Going on long walks, Journaling.
               </Card.Description>
               <Card.Description className="card-description">
                 I also enjoy working with kids!

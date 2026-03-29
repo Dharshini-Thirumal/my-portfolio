@@ -17,9 +17,8 @@ function Home() {
               <Typewriter
                 words={[
                   "Software Engineer",
-                  "Tutor",
-                  "Web Developer",
-                  "Tech Enthusiast",
+                  "Iced Cappuccino Lover",
+                  "Serial Crocheter",
                   "Learner & Explorer",
                 ]}
                 loop={true}
