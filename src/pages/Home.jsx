@@ -17,7 +17,7 @@ function Home() {
               <Typewriter
                 words={[
                   "Software Engineer",
-                  "Avid Reader",
+                  "n Avid Reader",
                   "Crocheter",
                   "Learner & Explorer",
                 ]}
