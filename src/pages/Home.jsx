@@ -12,14 +12,14 @@ function Home() {
           <h1 className="home-heading">Hello!</h1>
           <h1 className="home-heading">I'm Dharshini Thirumal</h1>
           <h2 className="home-subheading">
-            I'm a{" "}
+            I'm {" "}
             <span className="typewriter-text">
               <Typewriter
                 words={[
-                  "Software Engineer",
-                  "n Avid Reader",
-                  "Crocheter",
-                  "Learner & Explorer",
+                  "a Software Engineer",
+                  "an Avid Reader",
+                  "a Crocheter",
+                  "a Learner & Explorer",
                 ]}
                 loop={true}
                 cursor
